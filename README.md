@@ -10,10 +10,6 @@ This software creates a ready-to-deploy/develop Express server with traditional 
 
 These projects include:
 
-* [jaredhanson/passport-local](https://github.com/jaredhanson/passport-local)
-
-* [jaredhanson/oauth2orize](https://github.com/jaredhanson/oauth2orize)
-
 * [wolfeidau/grunt-express-bootstrap](https://github.com/wolfeidau/grunt-express-bootstrap)
     * [connect-cachify](https://github.com/mozilla/connect-cachify)
     * [twitter bootstrap](http://twitter.github.com/bootstrap/)
@@ -22,10 +18,23 @@ These projects include:
     * [jade](http://jade-lang.com/)
     * [winston-request-logger](https://github.com/wolfeidau/winston-request-logger)
 
+* [jaredhanson/passport-local](https://github.com/jaredhanson/passport-local)
+    * express
+    * passport
+    * passport-local
+    * mongoose
+    * bcrypt
+    
+* [jaredhanson/oauth2orize](https://github.com/jaredhanson/oauth2orize)
+    * oauth2orize
+    * passport-http
+    * passport-http-bearer
+    * passport-oauth2-client-password
+    * connect-ensure-login
 
-### Build a new project simply:
+### Create a new project:
 
-```bash
+```
 $ mkdir mynewproject
 $ cd mynewproject
 $ grunt-express-bootstrap-oauth2 init

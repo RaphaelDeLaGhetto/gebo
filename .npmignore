@@ -1,3 +1,5 @@
+/tasks/init/grunt-express-bootstrap-oauth2/root/node_modules/
+/tasks/init/grunt-express-bootstrap-oauth2/root/public/components/
 /components/
 *.swp
 .DS_Store
