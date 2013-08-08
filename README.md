@@ -1,9 +1,9 @@
-# grunt-express-bootstrap
+# grunt-express-bootstrap-oauth2
 
 Builds an express projects using grunt which uses twitter bootstrap.
 
 ## Getting Started
-Install the module with: `npm install grunt-express-bootstrap -g`
+Install the module with: `npm install grunt-express-bootstrap-oauth2 -g`
 
 ## Documentation
 This module is wraps grunt and includes an init template which bootstraps express projects.
