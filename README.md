@@ -45,6 +45,10 @@ $ node app.js
 
 Then go to <http://localhost:3000>.
 
+### Setup the database
+
+Read your project's [README.md](https://github.com/RaphaelDeLaGhetto/grunt-express-bootstrap-oauth2/tree/master/tasks/init/grunt-express-bootstrap-oauth2/root).
+
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt](https://github.com/gruntjs/grunt).
 
