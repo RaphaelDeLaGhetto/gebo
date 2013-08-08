@@ -1,35 +1,39 @@
 {
-    "name":"grunt-express-bootstrap-oauth2",
-    "description":"Bootstraps express web applications using Grunt, Bower, Twitter Bootstrap.",
-    "version":"0.0.1",
-    "homepage":"https://github.com/RaphaelDeLaGhetto/grunt-express-bootstrap",
-    "author":{
-        "name":"Daniel Bidulock",
-        "email":"daniel@capitolhill.ca"
-    },
-    "repository":{
-        "type":"git",
-        "url":"git://github.com/RaphaelDeLaGhetto/grunt-express-bootstrap.git"
-    },
-    "bugs":{
-        "url":"https://github.com/RaphaelDeLaGhetto/grunt-express-bootstrap/issues"
-    },
-    "licenses":[
-        {
-            "type":"MIT",
-            "url":"https://github.com/RaphaelDeLaGhetto/grunt-express-bootstrap/blob/master/LICENSE-MIT"
-        }
-    ],
-    "main":"grunt.js",
-    "bin":"bin/grunt-express-bootstrap-oauth2",
-    "engines":{
-        "node":">= 0.6.0"
-    },
-    "dependencies":{
-        "grunt":"~0.3.17"
-    },
-    "devDependencies":{
-        "grunt":"~0.3.17"
-    },
-    "keywords":["gruntplugin", "bootstrap", "express"]
+  "name": "grunt-express-bootstrap-oauth2",
+  "description": "Bootstraps express web applications using Grunt, Bower, Twitter Bootstrap.",
+  "version": "0.0.2",
+  "homepage": "https://github.com/RaphaelDeLaGhetto/grunt-express-bootstrap",
+  "author": {
+    "name": "Daniel Bidulock",
+    "email": "daniel@capitolhill.ca"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/RaphaelDeLaGhetto/grunt-express-bootstrap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RaphaelDeLaGhetto/grunt-express-bootstrap/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/RaphaelDeLaGhetto/grunt-express-bootstrap/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "grunt.js",
+  "bin": "bin/grunt-express-bootstrap-oauth2",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "dependencies": {
+    "grunt": "~0.3.17"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.17"
+  },
+  "keywords": [
+    "gruntplugin",
+    "bootstrap",
+    "express"
+  ]
 }
