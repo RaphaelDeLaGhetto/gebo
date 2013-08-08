@@ -4,31 +4,61 @@
 
 These project include:
 
-* [connect-cachify](https://github.com/mozilla/connect-cachify)
-* [twitter bootstrap](http://twitter.github.com/bootstrap/)
-* [JQuery](http://jquery.com/)
-* [bower](http://twitter.github.com/bower/)
-* [jade](http://jade-lang.com/)
-* [winston-request-logger](https://github.com/wolfeidau/winston-request-logger)
+* [jaredhanson/passport-local](https://github.com/jaredhanson/passport-local)
+
+* [jaredhanson/oauth2orize](https://github.com/jaredhanson/oauth2orize)
+
+* [wolfeidau/grunt-express-bootstrap](https://github.com/wolfeidau/grunt-express-bootstrap)
+    * [connect-cachify](https://github.com/mozilla/connect-cachify)
+    * [twitter bootstrap](http://twitter.github.com/bootstrap/)
+    * [JQuery](http://jquery.com/)
+    * [bower](http://twitter.github.com/bower/)
+    * [jade](http://jade-lang.com/)
+    * [winston-request-logger](https://github.com/wolfeidau/winston-request-logger)
 
 
-## Getting Started
+## Setup
 
-Once created you can set up your web application project by running the following commands.
+### your database (MongoDB)
 
-* Firstly run npm to install modules.
+Install MongoDB on your system, if you haven't already:
+
+* [http://docs.mongodb.org/manual/installation/](http://docs.mongodb.org/manual/installation/)
+
+Start MongoDB by executing this at the command line:
+
+```
+sudo service mongodb start
+```
+
+### your server
+
+First, install your npm modules:
 
 ```
 npm install
 ```
 
-* Run bower to install UI dependencies.
+Then, install your UI dependencies:
 
 ```
 bower install
 ```
 
-* Start the application.
+# Seed the database
+This inserts a couple of test users into your database to confirm that authentication is working.
+
+```
+grunt dbseed
+```
+
+When you want to start adding your own users, you can erase the exisiting database like this:
+
+```
+grunt dbdrop
+```
+
+# Start the application.
 
 ```
 node app.js
