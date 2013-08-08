@@ -48,15 +48,29 @@ exports.template = function(grunt, init, done) {
             "nconf": "*",
             "express": "*",
             "uglify-js": "*",
-            "uglifycss": "*"
-        }
+            "uglifycss": "*",
+
+            // From jaredhanson/passport-local
+            "express": "*",
+            "passport": "*",
+            "passport-local": "*",
+            "mongoose": "*",
+            "bcrypt": "*",
+
+            // From jaredhanson/oauth2orize
+            "oauth2orize": "*",
+            "passport-http": "*",
+            "passport-http-bearer": "*",
+            "passport-oauth2-client-password": "*",
+            "connect-ensure-login": "*"
+         }
 
         // specify the project dependencies.
         props.devDependencies = {
-            "grunt-simple-mocha":"~0.2.0",
+            "grunt-simple-mocha":"~0.4.0",
             "mocha":"~1.6.0",
             "should":"~1.2.0",
-            "grunt":"~0.3.17"
+            "grunt":"~0.4.1"
         }
 
         // Files to copy (and process).
