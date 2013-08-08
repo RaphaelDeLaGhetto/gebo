@@ -3,44 +3,48 @@
 Builds an express projects using grunt which uses twitter bootstrap.
 
 ## Getting Started
-Install the module with: `npm install grunt-express-bootstrap-oauth2 -g`
+Install the module: `npm install grunt-express-bootstrap-oauth2 -g`
 
 ## Documentation
-This module is wraps grunt and includes an init template which bootstraps express projects.
+This software creates a ready-to-deploy/develop Express server with traditional and OAuth2 authentication, all preconfigured. It is the composite effort of two authors with three relevant projects.
 
 These projects include:
 
-* [connect-cachify](https://github.com/mozilla/connect-cachify)
-* [twitter bootstrap](http://twitter.github.com/bootstrap/)
-* [JQuery](http://jquery.com/)
-* [bower](http://twitter.github.com/bower/)
-* [jade](http://jade-lang.com/)
-* [winston-request-logger](https://github.com/wolfeidau/winston-request-logger)
+* [jaredhanson/passport-local](https://github.com/jaredhanson/passport-local)
 
-All preconfigured and ready to run.
+* [jaredhanson/oauth2orize](https://github.com/jaredhanson/oauth2orize)
 
-To use to build a new project simply:
+* [wolfeidau/grunt-express-bootstrap](https://github.com/wolfeidau/grunt-express-bootstrap)
+    * [connect-cachify](https://github.com/mozilla/connect-cachify)
+    * [twitter bootstrap](http://twitter.github.com/bootstrap/)
+    * [JQuery](http://jquery.com/)
+    * [bower](http://twitter.github.com/bower/)
+    * [jade](http://jade-lang.com/)
+    * [winston-request-logger](https://github.com/wolfeidau/winston-request-logger)
+
+
+### Build a new project simply:
 
 ```bash
 $ mkdir mynewproject
 $ cd mynewproject
-$ grunt-express-bootstrap init
+$ grunt-express-bootstrap-oauth2 init
 $ npm install
 $ bower install
 $ node app.js
 ```
 
-Then visit <http://localhost:3000>.
+Then go to <http://localhost:3000>.
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt](https://github.com/gruntjs/grunt).
 
 ## Release History
 
-* 0.1.0 Initial proof of concept.
-* 0.1.1 Added twitter bootstrap, JQuery and a bunch of stuff to make this more usable.
-* 0.1.2 Fixed issues with bower files.
-
 ## License
-Copyright (c) 2012 Mark Wolfe  
-Licensed under the MIT license.
+All credit to where credit is due. Thank you, [jaredhanson](https://github.com/jaredhanson) and
+[wolfeidau](https://github.com/wolfeidau).
+
+The rest is Copyright 2013, Capitol Hill Productions Inc. 
+
+MIT license.
