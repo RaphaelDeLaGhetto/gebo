@@ -1,7 +1,7 @@
 {
   "name": "gebo",
   "description": "Bootstraps express web applications using Grunt, Bower, Twitter Bootstrap.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "https://github.com/RaphaelDeLaGhetto/grunt-express-bootstrap",
   "author": {
     "name": "Daniel Bidulock",
