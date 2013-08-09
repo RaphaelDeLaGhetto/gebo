@@ -1,7 +1,7 @@
 {
   "name": "gebo",
   "description": "Create a ready-to-deploy/develop Express server with traditional and OAuth2 authentication.",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "homepage": "https://github.com/RaphaelDeLaGhetto/gebo",
   "author": {
     "name": "Daniel Bidulock",
