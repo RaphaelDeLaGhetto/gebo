@@ -3,7 +3,7 @@ var grunt = require("grunt")
 
 // Preload all custom tasks.
 grunt.npmTasks([
-  "grunt-express-bootstrap-oauth2"
+  "gebo"
 ])
 
 // Otherwise, invoke the CLI.

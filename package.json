@@ -1,5 +1,5 @@
 {
-  "name": "grunt-express-bootstrap-oauth2",
+  "name": "gebo",
   "description": "Bootstraps express web applications using Grunt, Bower, Twitter Bootstrap.",
   "version": "0.0.3",
   "homepage": "https://github.com/RaphaelDeLaGhetto/grunt-express-bootstrap",
@@ -21,7 +21,7 @@
     }
   ],
   "main": "grunt.js",
-  "bin": "bin/grunt-express-bootstrap-oauth2",
+  "bin": "bin/gebo",
   "engines": {
     "node": ">= 0.6.0"
   },

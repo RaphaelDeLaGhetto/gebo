@@ -1,6 +1,6 @@
 /*
- * grunt-express-bootstrap-oauth2
- *  https://github.com/RaphaelDeLaGhetto/grunt-express-bootstrap-oauth2/blob/master/LICENSE-MIT
+ * gebo
+ *  https://github.com/RaphaelDeLaGhetto/gebo/blob/master/LICENSE-MIT
  *
  * Inspired by:
  *  Copyright (c) 2012 Mark Wolfe
@@ -21,7 +21,7 @@ exports.warnOn = '*'
 // The actual init template.
 exports.template = function(grunt, init, done) {
 
-    grunt.helper('prompt', {type: 'grunt-express-bootstrap-oauth2'}, [
+    grunt.helper('prompt', {type: 'gebo'}, [
         // Prompt for these values.
         grunt.helper('prompt_for', 'name'),
         grunt.helper('prompt_for', 'description'),

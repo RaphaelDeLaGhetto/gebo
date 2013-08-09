@@ -6,11 +6,11 @@ module.exports = function (grunt) {
         lint:{
             files: [
                 "grunt.js", 
-                "bin/grunt-express-bootstrap-oauth2",
-                "tasks/init/grunt-express-bootstrap-oauth2.js",
-                "tasks/init/grunt-express-bootstrap-oauth2/root/config/**",
-                "tasks/init/grunt-express-bootstrap-oauth2/root/lib/**",
-                "tasks/init/grunt-express-bootstrap-oauth2/root/routes/**"
+                "bin/gebo",
+                "tasks/init/gebo.js",
+                "tasks/init/gebo/root/config/**",
+                "tasks/init/gebo/root/lib/**",
+                "tasks/init/gebo/root/routes/**"
             ]
         },
 

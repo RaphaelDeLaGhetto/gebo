@@ -1,9 +1,10 @@
-# grunt-express-bootstrap-oauth2
+# Gebo
+## gebo
 
 This software creates a ready-to-deploy/develop Express server with traditional and OAuth2 authentication, all preconfigured.
 
 ## Getting Started
-Install the module: `npm install grunt-express-bootstrap-oauth2 -g`
+Install the module: `npm install gebo -g`
 
 ## Documentation
 Further to the description above, this project is the composite effort of two authors with three relevant projects.
@@ -37,7 +38,7 @@ These projects include:
 ```
 $ mkdir mynewproject
 $ cd mynewproject
-$ grunt-express-bootstrap-oauth2 init
+$ gebo init
 $ npm install
 $ bower install
 $ node app.js
@@ -47,7 +48,7 @@ Then go to <http://localhost:3000>.
 
 ### Setup the database
 
-Read your project's [README.md](https://github.com/RaphaelDeLaGhetto/grunt-express-bootstrap-oauth2/tree/master/tasks/init/grunt-express-bootstrap-oauth2/root).
+Read your project's [README.md](https://github.com/RaphaelDeLaGhetto/gebo/tree/master/tasks/init/gebo/root).
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt](https://github.com/gruntjs/grunt).
