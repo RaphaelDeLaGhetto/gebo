@@ -20,7 +20,7 @@
       "url": "https://github.com/RaphaelDeLaGhetto/gebo/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "grunt.js",
+  "main": "Gruntfile.js",
   "bin": "bin/gebo",
   "engines": {
     "node": ">= 0.6.0"
