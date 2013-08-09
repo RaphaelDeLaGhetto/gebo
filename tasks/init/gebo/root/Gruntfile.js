@@ -55,6 +55,8 @@ module.exports = function (grunt) {
         }
     });
 
+    // Npm tasks
+    grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-simple-mocha');
 
     // Default task.

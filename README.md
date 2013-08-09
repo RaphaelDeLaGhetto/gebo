@@ -4,7 +4,22 @@
 This software creates a ready-to-deploy/develop Express server with traditional and OAuth2 authentication, all preconfigured.
 
 ## Getting Started
-Install the module: `sudo npm install gebo -g`
+
+### Setup grunt
+if you haven't already, that is... Gebo currently depends on grunt@0.4.1. This requires a bit of prep work.
+
+```
+$ sudo npm install grunt-cli -g
+```
+
+This enables you to run the grunt installed locally, automatically.
+
+### Next, install the Gebo module.
+Install the module:
+
+```
+$ sudo npm install gebo -g
+```
 
 ## Documentation
 Further to the description above, this project is the composite effort of two authors with three relevant projects.
@@ -48,7 +63,7 @@ Then go to <http://localhost:3000>.
 
 ### Setup the database
 
-Read your project's [README.md](https://github.com/RaphaelDeLaGhetto/gebo/tree/master/tasks/init/gebo/root).
+Read your new project's [README.md](https://github.com/RaphaelDeLaGhetto/gebo/tree/master/tasks/init/gebo/root).
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt](https://github.com/gruntjs/grunt).

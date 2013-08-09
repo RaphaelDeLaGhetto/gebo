@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/RaphaelDeLaGhetto/gebo.git"
+    "url": "https://github.com/RaphaelDeLaGhetto/gebo.git"
   },
   "bugs": {
     "url": "https://github.com/RaphaelDeLaGhetto/gebo/issues"
@@ -23,13 +23,14 @@
   "main": "Gruntfile.js",
   "bin": "bin/gebo",
   "engines": {
-    "node": ">= 0.6.0"
+    "node": ">= 0.8.0"
   },
   "dependencies": {
     "grunt": "~0.4.1"
   },
   "devDependencies": {
-    "grunt": "~0.4.1"
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.2"
   },
   "keywords": [
     "gruntplugin",

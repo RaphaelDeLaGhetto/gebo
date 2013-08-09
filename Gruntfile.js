@@ -1,11 +1,14 @@
+'use strict';
+
 module.exports = function (grunt) {
 
     // Project configuration.
     grunt.initConfig({
+        pkg: '<json:package.json>',
 
-        lint:{
+        'lint':{
             files: [
-                "grunt.js", 
+                "Gruntfile.js", 
                 "bin/gebo",
                 "tasks/init/gebo.js",
                 "tasks/init/gebo/root/config/**",
@@ -15,6 +18,14 @@ module.exports = function (grunt) {
         },
 
         jshint:{
+            all: [
+                "Gruntfile.js", 
+                "bin/gebo",
+                "tasks/init/gebo.js",
+                "tasks/init/gebo/root/config/**",
+                "tasks/init/gebo/root/lib/**",
+                "tasks/init/gebo/root/routes/**"
+            ],
             options:{
                 asi: true,
                 curly:true,
@@ -37,10 +48,13 @@ module.exports = function (grunt) {
         }
     });
 
+    // Npm tasks
+    grunt.loadNpmTasks('grunt-contrib-jshint');
+
     // Load local tasks.
     grunt.loadTasks("tasks");
 
     // Default task.
-    grunt.registerTask("default", "lint");
+    grunt.registerTask("default", "jshint");
 
 };

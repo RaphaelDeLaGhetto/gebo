@@ -51,7 +51,6 @@ exports.template = function(grunt, init, done) {
             "uglifycss": "*",
 
             // From jaredhanson/passport-local
-            "express": "*",
             "passport": "*",
             "passport-local": "*",
             "mongoose": "*",
@@ -70,7 +69,8 @@ exports.template = function(grunt, init, done) {
             "grunt-simple-mocha":"~0.4.0",
             "mocha":"~1.6.0",
             "should":"~1.2.0",
-            "grunt":"~0.4.1"
+            "grunt":"~0.4.1",
+            "grunt-contrib-jshint": "~0.6.2"
         }
 
         // Files to copy (and process).
