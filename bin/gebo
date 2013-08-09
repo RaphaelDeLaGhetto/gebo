@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var grunt = require("grunt")
+var grunt = require("Gruntfile")
 
 // Preload all custom tasks.
 grunt.npmTasks([
