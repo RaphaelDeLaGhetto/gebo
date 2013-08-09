@@ -4,7 +4,7 @@
 This software creates a ready-to-deploy/develop Express server with traditional and OAuth2 authentication, all preconfigured.
 
 ## Getting Started
-Install the module: `npm install gebo -g`
+Install the module: `sudo npm install gebo -g`
 
 ## Documentation
 Further to the description above, this project is the composite effort of two authors with three relevant projects.
