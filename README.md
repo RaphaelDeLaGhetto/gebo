@@ -1,5 +1,5 @@
 # Gebo
-## gebo
+## grunt-express-bootstrap-oauth2
 
 This software creates a ready-to-deploy/develop Express server with traditional and OAuth2 authentication, all preconfigured.
 
